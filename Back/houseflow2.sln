@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "houseflow2", "houseflow2\houseflow2.csproj", "{CF28F0DC-C92A-44D4-A3C9-729C539AC806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSist", "TestSist\TestSist.csproj", "{771386C2-2AE3-487B-AA8D-DBC31A805A9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF28F0DC-C92A-44D4-A3C9-729C539AC806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF28F0DC-C92A-44D4-A3C9-729C539AC806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF28F0DC-C92A-44D4-A3C9-729C539AC806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF28F0DC-C92A-44D4-A3C9-729C539AC806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771386C2-2AE3-487B-AA8D-DBC31A805A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771386C2-2AE3-487B-AA8D-DBC31A805A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771386C2-2AE3-487B-AA8D-DBC31A805A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771386C2-2AE3-487B-AA8D-DBC31A805A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA3BF067-76E5-47AD-B600-CA8C51D57E25}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,113 @@
+/* malayalam */
+@font-face {
+    font-family: "shabnam";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://localhost:3000/fonts/shabnam.woff2) format("woff2");
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+    margin: 0;
+}
+main {
+    flex-grow: 1; /* Allow the content to grow and take up the remaining space */
+    padding: 1rem;
+}
+
+#root {
+    display: contents;
+}
+
+.mt-1 {
+    margin-top: 1rem !important;
+}
+.mt-2 {
+    margin-top: 2rem !important;
+}
+.mt-3 {
+    margin-top: 3rem !important;
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+.mb-2 {
+    margin-bottom: 2rem !important;
+}
+.mb-3 {
+    margin-bottom: 3rem !important;
+}
+
+.my-1 {
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+}
+.my-2 {
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+}
+.my-3 {
+    margin-bottom: 3rem !important;
+    margin-top: 3rem !important;
+}
+
+.ms-1 {
+    margin-left: 1rem !important;
+}
+.ms-2 {
+    margin-left: 2rem !important;
+}
+.ms-3 {
+    margin-left: 3rem !important;
+}
+
+.me-1 {
+    margin-right: 1rem !important;
+}
+.me-2 {
+    margin-right: 2rem !important;
+}
+.me-3 {
+    margin-right: 3rem !important;
+}
+
+.mx-1 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+}
+.mx-2 {
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
+}
+.mx-3 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+}
+.text-link {
+    text-decoration: none;
+    color: hsl(209.84deg 78.72% 46.08%);
+}
+.text-link-white {
+    text-decoration: none;
+    color: #fff;
+}
+.cur-pointer {
+    cursor: pointer;
+}
+.full-width {
+    width: 100%;
+}
+.rounded {
+    border-radius: 4px;
+}
+.ck-editor__editable {
+    min-height: 250px;
+}
